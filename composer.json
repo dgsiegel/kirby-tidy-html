@@ -1,0 +1,18 @@
+{
+  "name": "dgsiegel/kirby-tidy-html",
+  "description": "Tidy HTML output for Kirby",
+  "license": "GPL-3.0-or-later",
+  "type": "kirby-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "daniel g. siegel",
+      "email": "daniel@dgsiegel.net"
+    }
+  ],
+  "homepage": "https://github.com/dgsiegel/kirby-tidy-html",
+  "require": {
+    "ext-tidy": "*",
+    "getkirby/composer-installer": "^1.2"
+  }
+}
