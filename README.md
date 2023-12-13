@@ -41,7 +41,18 @@ Find all available Tidy options here: https://api.html-tidy.org/tidy/quickref_ne
 return [
     'dgsiegel.kirby-tidy-html.enabled' => true,
     'dgsiegel.kirby-tidy-html.options' => [
-      [your options...]
+       'drop-empty-paras'    => 0,
+       'indent'              => 2,
+       'indent'              => 2,
+       'indent-spaces'       => 2,
+       'indent-spaces'       => 2,
+       'output-html'         => 1,
+       'preserve-entities'   => 1,
+       'priority-attributes' => 'id, class, name, src, alt',
+       'quote-ampersand'     => 0,
+       'sort-attributes'     => 0,
+       'vertical-space'      => 1,
+       'wrap'                => 0,
     ],
 ];
 ````
