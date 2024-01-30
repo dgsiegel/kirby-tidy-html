@@ -24,6 +24,10 @@ composer require dgsiegel/kirby-tidy-html
 git submodule add https://github.com/dgsiegel/kirby-tidy-html.git site/plugins/kirby-tidy-html
 ```
 
+### Download manually
+
+Download and copy this repository to `site/plugins/kirby-tidy-html`.
+
 ## Options
 
 The default values of the package are:
